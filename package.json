@@ -1,7 +1,7 @@
 {
   "name": "npm-scripts-watcher",
   "description": "Globbing file watcher to automatically run npm scripts from package.json when files change, with pretty colors.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bin": "lib/watcher.js",
   "main": "lib/watcher.js",
   "scripts": {
