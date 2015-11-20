@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/wehkamp/npm-scripts-watcher#readme",
   "dependencies": {
+    "colors": "^1.1.2",
     "debounce": "^1.0.0",
     "glob": "^6.0.1",
     "node-watch": "^0.3.4",
