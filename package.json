@@ -1,0 +1,37 @@
+{
+  "name": "npm-scripts-watcher",
+  "description": "Globbing file watcher to automatically run npm scripts from package.json when files change, with pretty colors.",
+  "version": "1.0.0",
+  "main": "lib/watcher.js",
+  "scripts": {
+    "build": "babel -d lib src",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wehkamp/npm-scripts-watcher.git"
+  },
+  "keywords": [
+    "npm",
+    "scripts",
+    "file",
+    "watch",
+    "watcher"
+  ],
+  "author": "Gert Hengeveld <info@ghengeveld.nl> (https://github.com/ghengeveld)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wehkamp/npm-scripts-watcher/issues"
+  },
+  "homepage": "https://github.com/wehkamp/npm-scripts-watcher#readme",
+  "dependencies": {
+    "debounce": "^1.0.0",
+    "glob": "^6.0.1",
+    "node-watch": "^0.3.4",
+    "shelljs": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18"
+  }
+}
