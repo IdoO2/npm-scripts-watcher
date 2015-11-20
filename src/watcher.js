@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import 'colors';
 import debounce from 'debounce';
 import glob from 'glob';
