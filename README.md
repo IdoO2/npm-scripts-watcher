@@ -4,7 +4,6 @@
 
 Globbing file watcher to automatically run npm scripts from package.json when files change, with pretty colors.
 
-Example output:
 ![Screenshot](https://raw.github.com/wehkamp/npm-scripts-watcher/master/screenshot.png)
 
 ## Usage
