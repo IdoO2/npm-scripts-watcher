@@ -1,5 +1,7 @@
 # npm-scripts-watcher
 
+[![npm version](https://img.shields.io/npm/v/npm-scripts-watcher.svg)](https://www.npmjs.com/package/npm-scripts-watcher)
+
 Globbing file watcher to automatically run npm scripts from package.json when files change, with pretty colors.
 
 Example output:
