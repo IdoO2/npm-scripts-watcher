@@ -9,6 +9,8 @@ import shell from 'shelljs';
 const cwd = process.cwd();
 const config = require(path.join(cwd, 'package.json'));
 
+const verbose = (['--verbose', '-v'].indexOf(process.argv[2]) !== -1);
+
 Object.keys(config.watch).forEach(pattern => {
   glob(pattern, { cwd }, (err, files) => {
     if (err) {
@@ -39,6 +41,7 @@ function run(name, script, command) {
   shell.exec(command, { silent: true }, (exitcode, output) => {
     if (exitcode === 0) {
       console.log('✓'.green, name.bold, script.gray);
+      verbose && console.log(output.trim().gray);
     } else {
       console.log('✗'.red, name.bold, script.gray);
       console.log(output.trim().gray);

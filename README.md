@@ -32,3 +32,15 @@ Keys in the `watch` object should be [globs](https://www.npmjs.com/package/glob)
 names as specified in `scripts`.
 
 Now you can start the file watcher using `npm run watch`.
+
+### Option(s)
+
+The default behaviour is to pass logs along _only_ if the exit code for a build is not `0`. You can change this and show all logs by passing a `-v`(or `--verbose`) flag in your package.json:
+
+```js
+{
+  ...
+  "watch": "npm-scripts-watcher -v"
+  ...
+}
+```
