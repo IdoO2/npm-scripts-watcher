@@ -29,7 +29,7 @@
     "colors": "^1.1.2",
     "debounce": "^1.0.0",
     "glob": "^6.0.1",
-    "node-watch": "^0.3.4",
+    "node-watch": "^0.7.0",
     "shelljs": "^0.5.3"
   },
   "devDependencies": {
