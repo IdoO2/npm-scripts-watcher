@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wehkamp/npm-scripts-watcher.git"
+    "url": "git+https://github.com/IdoO2/npm-scripts-watcher.git"
   },
   "keywords": [
     "npm",
@@ -22,9 +22,9 @@
   "author": "Gert Hengeveld <info@ghengeveld.nl> (https://github.com/ghengeveld)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/wehkamp/npm-scripts-watcher/issues"
+    "url": "https://github.com/IdoO2/npm-scripts-watcher/issues"
   },
-  "homepage": "https://github.com/wehkamp/npm-scripts-watcher#readme",
+  "homepage": "https://github.com/IdoO2/npm-scripts-watcher#readme",
   "dependencies": {
     "colors": "^1.1.2",
     "debounce": "^1.0.0",
